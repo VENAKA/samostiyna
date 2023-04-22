@@ -69,8 +69,11 @@ body{
 }
 /* header______end */
 .img__main {
-    margin: 100px ;
-    margin-left: 500px;
+}
+.main__conteiner {
+    margin: 100px auto;
+    width: 300px;
+    height: 300px;
 }
 .main__text {
     font-family: 'Manrope';
@@ -84,7 +87,7 @@ body{
 }
 .main {
     max-width: 1300px;
-    height: 2000px;
+    height: 3000px;
 }
 .text__conteiner {
     max-width: 900px;
@@ -139,4 +142,25 @@ body{
     line-height: 36px;
     letter-spacing: 0.0571015px;
     color: #FFFFFF;
+}
+.conteiner__conteiner {
+    width: 550px;
+    height: 900px;
+    border: 1px solid #ffffff;
+}
+.conteiner{
+    width: 550px;
+    height: 300px ;
+    border: 1px solid #ffffff;
+}
+.conteiner__conteiner-2 {
+    width: 550px;
+    height: 1200px;
+    border: 1px solid #ffffff;
+}
+.conteiner_for-conteiner {
+    max-width:1300px ;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
 }
