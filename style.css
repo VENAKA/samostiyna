@@ -56,9 +56,10 @@ body{
     border-radius: 6px;
     background: #621DED;
     cursor: pointer;
-    padding: 4px;
-    padding-left: 10px;
     transition: 0.5s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .a__buton:hover{
     background-color: rgb(84, 0, 109);
@@ -80,8 +81,8 @@ body{
     color: #FFFFFF;
 }
 .main {
-    max-width: 1300px;
-    height: 3000px;
+    max-width: 1500px;
+    height: 4000px;
 }
 .present-conteiner {
     max-width: 900px;
@@ -106,10 +107,11 @@ body{
     height: 48px;
     background: #621DED;
     border-radius: 6px;
-    padding-left: 20px;
-    padding-top: 12px;
     margin: 30px auto;
     margin-bottom: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .buton__text {
     font-family: 'Manrope';
@@ -263,4 +265,118 @@ body{
 .ideas:nth-child(2){
     width: 500px;
     height: 55px;
+}
+.programs {
+    max-width: 825px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 500px;
+}
+.programs__text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.0571015px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.prograns__h {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.0571015px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.proghams__icons{
+    width: 480px;
+    height: 125px;
+    margin: 0 auto;
+}
+.pay__info {
+    max-width: 890px;
+    height: 116px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.pay__h {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.0571015px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.pay__text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.0571015px;
+    color: #FFFFFF;
+}
+.pay__info_conteiner {
+    width: 365px;
+    height: 566px; 
+    border: 1px solid #ffffff;
+}
+.plase__info {
+    height: 180px;
+    width: 550px;
+    margin-left: 50px;
+}
+.plase__have {
+    height: 240px;
+    width: 550px;
+    margin-left: 50px;
+}
+.pay__coneiner {
+    max-width: 1300px;
+    height: 566px;
+    border: 1px solid #ffffff;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.plase__have-text {
+}
+.have-text {
+}
+.plese__h {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.0571015px;
+    color: #FFFFFF;
+    }
+.plese__pay {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    letter-spacing: 0.0571015px;
+    color: #FFFFFF;
+}
+.plase__text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.0571015px;
+    color: #FFFFFF;
 }
