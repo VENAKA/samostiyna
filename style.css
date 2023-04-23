@@ -21,8 +21,6 @@ body{
     display: flex;
     align-items: center;
 }
-.header__nav {
-}
 .nav__ul {
     display: flex;
     justify-content: space-between;
@@ -41,8 +39,6 @@ body{
     line-height: 26px;
     letter-spacing: 0.0571015px;
     color: #FFFFFF;
-}
-.logo_img {
 }
 .logo_text {
     font-family: 'Manrope';
@@ -68,8 +64,6 @@ body{
     background-color: rgb(84, 0, 109);
 }
 /* header______end */
-.img__main {
-}
 .main__conteiner {
     margin: 100px auto;
     width: 300px;
@@ -88,6 +82,10 @@ body{
 .main {
     max-width: 1300px;
     height: 3000px;
+}
+.present-conteiner {
+    max-width: 900px;
+    margin: 0 auto;
 }
 .text__conteiner {
     max-width: 900px;
