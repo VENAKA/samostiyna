@@ -132,7 +132,7 @@ body{
     color: #FFFFFF;
 }
 .text-2__conteiner {
-    width: 750px;
+    max-width: 750px;
 }
 .text-2 {
     font-family: 'Manrope';
@@ -216,7 +216,7 @@ body{
     margin-left: 178px;
 }
 .ideas {
-    max-width: 1500px;
+    max-width: 1300px;
     height: 130px;
     margin: 216px auto;
     display: flex;
@@ -329,29 +329,59 @@ body{
 .pay__info_conteiner {
     width: 365px;
     height: 566px; 
-    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #13151B;
+    background: #13151B;
+    border-radius: 6px;
+}
+.pay__info_conteiner-2{
+    width: 365px;
+    height: 566px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #13151B;
+    background: #13151B;
+    border: 1px solid rgba(98, 29, 237, 0.2);
+    box-shadow: 0px 0px 60px rgba(98, 29, 237, 0.2);
+    border-radius: 6px;
 }
 .plase__info {
     height: 180px;
-    width: 550px;
+    width: 350px;
     margin-left: 50px;
+    padding-right: 70px;
 }
 .plase__have {
-    height: 240px;
-    width: 550px;
-    margin-left: 50px;
+    height: 100px;
+    width: 350px;
+    margin-left: 15px;
+    padding-right: 70px;
 }
 .pay__coneiner {
     max-width: 1300px;
     height: 566px;
-    border: 1px solid #ffffff;
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
 }
 .plase__have-text {
+    display: inline-flex;
+    align-items: center;
+    color: #ffffff;
 }
 .have-text {
+    color: #ffffff;
+    margin: 5px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.0571015px;
+    color: #FFFFFF;
 }
 .plese__h {
     font-family: 'Manrope';
@@ -378,5 +408,47 @@ body{
     font-size: 17px;
     line-height: 26px;
     letter-spacing: 0.0571015px;
+    color: #FFFFFF;
+}
+.plase__button {
+    height: 48px;
+    width: 267px;
+    border-radius: 6px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.plase__button-2{
+    height: 48px;
+    width: 267px;
+    border-radius: 6px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #621DED;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.plase__button:hover{
+    background-color: #1a0a3c;
+}
+.plase__button-2:hover{
+    background-color: #a67dff;
+}
+.button__text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.279545px;
     color: #FFFFFF;
 }
